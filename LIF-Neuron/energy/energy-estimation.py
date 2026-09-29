@@ -1,12 +1,3 @@
-"""
-Energy Estimation Script for LIF Neuron
-Calculates:
-  - Energy per spike (Active mode, with and without Clock-Gating)
-  - Energy per clock cycle (Idle mode, with and without Clock-Gating)
-  - Power / Energy reduction percentage
-"""
-
-#!/usr/bin/env python3
 import argparse
 
 def main():
