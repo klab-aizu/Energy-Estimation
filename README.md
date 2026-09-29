@@ -18,7 +18,6 @@ Where:
 ---
 
 ### 2. The 4 Target Scenarios
-You will evaluate a $2 \times 2$ matrix:
 
 | Scenario | Clock Gating (DC) | Stimulus Activity (TB) | What It Measures |
 | :--- | :--- | :--- | :--- |
