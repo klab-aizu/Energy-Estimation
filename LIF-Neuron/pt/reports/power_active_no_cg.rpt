@@ -1,0 +1,32 @@
+****************************************
+Report : Averaged Power
+Design : LIF_neuron
+Version: P-2019.03-SP3
+Date   : Tue Sep 29 22:13:35 2026
+****************************************
+
+
+
+  Attributes
+  ----------
+      i  -  Including register clock pin internal power
+      u  -  User defined power group
+
+                        Internal  Switching  Leakage    Total
+Power Group             Power     Power      Power      Power   (     %)  Attrs
+--------------------------------------------------------------------------------
+clock_network           2.729e-05    0.0000    0.0000 2.729e-05 (49.46%)  i
+register                4.502e-06 1.630e-06 9.346e-07 7.067e-06 (12.81%)  
+combinational           1.016e-05 8.558e-06 2.099e-06 2.082e-05 (37.73%)  
+sequential                 0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+memory                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+io_pad                     0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+black_box                  0.0000    0.0000    0.0000    0.0000 ( 0.00%)  
+
+  Net Switching Power  = 1.019e-05   (18.47%)
+  Cell Internal Power  = 4.195e-05   (76.04%)
+  Cell Leakage Power   = 3.034e-06   ( 5.50%)
+                         ---------
+Total Power            = 5.517e-05  (100.00%)
+
+1
