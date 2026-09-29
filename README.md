@@ -19,12 +19,12 @@ Where:
 
 ### 2. The 4 Target Scenarios
 
-| Scenario | Clock Gating (DC) | Stimulus Activity (TB) | What It Measures |
-| :--- | :--- | :--- | :--- |
-| **Case 1** | **No CG** | **No Spike** (idle) | Baseline idle power without clock gating |
-| **Case 2** | **With CG** | **No Spike** (idle) | Leakage + gated clock power reduction |
-| **Case 3** | **No CG** | **Active Spikes** (continuous integration & fire) | Full dynamic switching energy per spike |
-| **Case 4** | **With CG** | **Active Spikes** | Real-world active energy per spike with clock gating |
+| Scenario | Clock Gating (DC) | Stimulus Activity (TB) |
+| :--- | :--- | :--- |
+| **Case 1** | **No CG** | **No Spike** (idle) |
+| **Case 2** | **With CG** | **No Spike** (idle) |
+| **Case 3** | **No CG** | **Active Spikes** (continuous integration & fire) |
+| **Case 4** | **With CG** | **Active Spikes** |
 
 ---
 
