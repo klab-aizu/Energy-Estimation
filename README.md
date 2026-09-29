@@ -14,7 +14,7 @@ Where:
 * $P_{\text{total}} = P_{\text{dynamic}} + P_{\text{static}}$ (reported by PrimeTime-PX).
 * $T_{\text{sim}}$ is the measurement time window.
 * $N_{\text{spikes}}$ is the number of spike events processed in that window.
-```
+
 ---
 
 ### 2. The 4 Target Scenarios
