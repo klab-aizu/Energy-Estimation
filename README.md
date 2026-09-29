@@ -3,14 +3,18 @@
 ## Overview
 
 ### 1. The Energy Formulation
+
 To compute the energy per spike computation:
-$$\text{Energy per Spike } (E_{\text{spike}}) = \frac{P_{\text{total}} \times T_{\text{sim}}}{N_{\text{spikes}}} = P_{\text{total}} \times T_{\text{spike\_period}}$$
+
+```math
+\text{Energy per Spike } (E_{\text{spike}}) = \frac{P_{\text{total}} \times T_{\text{sim}}}{N_{\text{spikes}}} = P_{\text{total}} \times T_{\text{spike\_period}}
+```
 
 Where:
 * $P_{\text{total}} = P_{\text{dynamic}} + P_{\text{static}}$ (reported by PrimeTime-PX).
 * $T_{\text{sim}}$ is the measurement time window.
 * $N_{\text{spikes}}$ is the number of spike events processed in that window.
-
+```
 ---
 
 ### 2. The 4 Target Scenarios
@@ -18,8 +22,8 @@ You will evaluate a $2 \times 2$ matrix:
 
 | Scenario | Clock Gating (DC) | Stimulus Activity (TB) | What It Measures |
 | :--- | :--- | :--- | :--- |
-| **Case 1** | **No CG** | **No Spike** (idle / $i\_svalid=0$) | Baseline idle power without gating |
-| **Case 2** | **With CG** | **No Spike** (idle / $i\_svalid=0$) | Leakage + gated clock power reduction |
+| **Case 1** | **No CG** | **No Spike** (idle) | Baseline idle power without clock gating |
+| **Case 2** | **With CG** | **No Spike** (idle) | Leakage + gated clock power reduction |
 | **Case 3** | **No CG** | **Active Spikes** (continuous integration & fire) | Full dynamic switching energy per spike |
 | **Case 4** | **With CG** | **Active Spikes** | Real-world active energy per spike with clock gating |
 
