@@ -160,6 +160,6 @@ Run this too see, what value belongs to what configuration:
 
 ## Terminal Output
 
-![img-01](./img/terminal-01.png)
+![img-01](./LIF-neuron/img/terminal-01.png)
 
 ---
