@@ -138,10 +138,10 @@ Go to below directory:
 Run the commands below:
 
 #### 1. Active with Clock Gating
-    python3 energy-estimation.py --power_uw 64.04 --time_ns 3565 --spikes 50
+    python3 energy-estimation.py --power_uw 64.04 --time_ns 6000 --spikes 50
 
 #### 2. Active without Clock Gating
-    python3 energy-estimation.py --power_uw 55.17 --time_ns 3565 --spikes 50
+    python3 energy-estimation.py --power_uw 55.17 --time_ns 6000 --spikes 50
 
 #### 3. Idle with Clock Gating
     python3 energy-estimation.py --power_uw 49.77 --is_idle --clk_period_ns 10
