@@ -8,6 +8,16 @@ $$
 T_{\mathrm{clk}} = 10~\mathrm{ns}
 $$
 
+Obtained values:
+
+$$
+P_{\mathrm{idle}} =
+\begin{cases}
+50.48~\mu W & \text{No CG}\\
+49.77~\mu W & \text{CG}
+\end{cases}
+$$
+
 ### No Clock Gating
 
 $$
