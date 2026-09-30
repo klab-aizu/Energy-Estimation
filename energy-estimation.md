@@ -113,6 +113,14 @@ $$
 = 0.4281~\mathrm{pJ/spike}
 $$
 
+$$
+E_{\mathrm{dynamic}} =
+\begin{cases}
+0.1407S & \text{No CG}\\
+0.4281S & \text{CG}
+\end{cases}
+$$
+
 ---
 
 ## 3. Final Energy Model
