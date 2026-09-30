@@ -113,6 +113,8 @@ $$
 = 0.4281~\mathrm{pJ/spike}
 $$
 
+Therefore,
+
 $$
 E_{\mathrm{dynamic}} =
 \begin{cases}
