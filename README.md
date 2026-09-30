@@ -188,4 +188,8 @@ Run the commands below:
 | **Idle, CG**      |  31.3 µW |   15.7 µW | 2.79 µW | **49.77 µW** |
 | **Active, CG**    |  38.3 µW |   23.0 µW | 2.79 µW | **64.04 µW** |
 
+## Energy Estimation for SNN
+
+[Click here](https://github.com/klab-aizu/Energy-Estimation/blob/main/energy-estimation.md)
+
 ---
