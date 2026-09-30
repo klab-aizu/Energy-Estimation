@@ -110,23 +110,13 @@ $$
 ### No Clock Gating
 
 $$
-\boxed{
-E_{\mathrm{NoCG}}
-=
-0.5048NT + 0.1407S
-\quad\mathrm{pJ}
-}
+E_{\mathrm{NoCG}} = 0.5048NT + 0.1407S \quad \mathrm{pJ}
 $$
 
 ### Clock Gating
 
 $$
-\boxed{
-E_{\mathrm{CG}}
-=
-0.4977NT + 0.4281S
-\quad\mathrm{pJ}
-}
+E_{\mathrm{CG}} = 0.4977NT + 0.4281S \quad \mathrm{pJ}
 $$
 
 where:
