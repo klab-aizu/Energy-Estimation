@@ -178,3 +178,14 @@ Run the commands below:
 ![img-05](./LIF-Neuron/img/idle-no-cg.png)
 
 ---
+
+## Result Summary
+
+| Configuration     | Internal | Switching | Leakage |        Total |
+| ----------------- | -------: | --------: | ------: | -----------: |
+| **Idle, No CG**   |  38.3 µW |   9.12 µW | 3.03 µW | **50.48 µW** |
+| **Active, No CG** |  42.0 µW |   10.2 µW | 3.03 µW | **55.17 µW** |
+| **Idle, CG**      |  31.3 µW |   15.7 µW | 2.79 µW | **49.77 µW** |
+| **Active, CG**    |  38.3 µW |   23.0 µW | 2.79 µW | **64.04 µW** |
+
+---
