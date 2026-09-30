@@ -135,6 +135,12 @@ Go to below directory:
 
     cd LIF-Neuron/energy
 
+Run this to see; what value belongs to what configuration:
+
+    grep -H "Total Power" /home/atharv/WORKSPACE/ISCAS/LIF-Neuron/pt/reports/power_*.rpt
+
+![img-01](./LIF-Neuron/img/terminal-01.png)
+
 Run the commands below:
 
 #### 1. Active with Clock Gating
@@ -144,6 +150,8 @@ Run the commands below:
     --output_spikes 50 \
     --input_per_output 4
 
+![img-02](./LIF-Neuron/img/active-cg.png)
+
 #### 2. Active without Clock Gating
     python3 energy-estimation.py \
     --power_uw 55.17 \
@@ -151,11 +159,15 @@ Run the commands below:
     --output_spikes 50 \
     --input_per_output 4
 
+![img-03](./LIF-Neuron/img/active-no-cg.png)
+
 #### 3. Idle with Clock Gating
     python3 energy-estimation.py \
     --power_uw 49.77 \
     --is_idle \
     --clk_period_ns 10
+
+![img-04](./LIF-Neuron/img/idle-cg.png)
 
 #### 4. Idle without Clock Gating
     python3 energy-estimation.py \
@@ -163,16 +175,6 @@ Run the commands below:
     --is_idle \
     --clk_period_ns 10
 
----
-
-Run this too see, what value belongs to what configuration:
-
-    grep -H "Total Power" /home/atharv/WORKSPACE/ISCAS/LIF-Neuron/pt/reports/power_*.rpt
-
----
-
-## Terminal Output
-
-![img-01](./LIF-Neuron/img/terminal-01.png)
+![img-05](./LIF-Neuron/img/idle-no-cg.png)
 
 ---
